@@ -1,14 +1,16 @@
 import os
 import streamlit as st
-from dotenv import load_dotenv
 from neo4j import GraphDatabase
 
-load_dotenv()
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
 
-URI = os.getenv("NEO4J_URI", "bolt://localhost:7687")
-USER = os.getenv("NEO4J_USER", "neo4j")
-PASSWORD = os.getenv("NEO4J_PASSWORD", "password")
-
+URI = st.secrets.get("NEO4J_URI", os.getenv("NEO4J_URI", "bolt://localhost:7687"))
+USER = st.secrets.get("NEO4J_USER", os.getenv("NEO4J_USER", "neo4j"))
+PASSWORD = st.secrets.get("NEO4J_PASSWORD", os.getenv("NEO4J_PASSWORD", "password"))
 
 @st.cache_resource
 def get_driver():
