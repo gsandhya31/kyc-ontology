@@ -8,10 +8,15 @@ try:
 except ImportError:
     pass
 
-URI = st.secrets.get("NEO4J_URI", os.getenv("NEO4J_URI", "bolt://localhost:7687"))
-USER = st.secrets.get("NEO4J_USER", os.getenv("NEO4J_USER", "neo4j"))
-PASSWORD = st.secrets.get("NEO4J_PASSWORD", os.getenv("NEO4J_PASSWORD", "password"))
-
+try:
+    URI = st.secrets["NEO4J_URI"]
+    USER = st.secrets["NEO4J_USER"]
+    PASSWORD = st.secrets["NEO4J_PASSWORD"]
+except Exception:
+    URI = os.getenv("NEO4J_URI", "bolt://localhost:7687")
+    USER = os.getenv("NEO4J_USER", "neo4j")
+    PASSWORD = os.getenv("NEO4J_PASSWORD", "password")
+    
 @st.cache_resource
 def get_driver():
     return GraphDatabase.driver(URI, auth=(USER, PASSWORD))
