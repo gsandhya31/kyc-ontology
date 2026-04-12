@@ -1,0 +1,31 @@
+owner_id,owned_id,ownership_pct,effective_from,source
+E026,E007,100.0,2008-01-01,Corporate extract
+E007,E011,60.0,2019-01-10,Disclosure
+E023,E011,30.0,2020-01-15,Registry extract
+E007,E012,80.0,2020-03-01,Disclosure
+E012,E019,40.0,2021-08-01,Share register
+E007,E003,40.0,2022-04-01,Disclosure
+E023,E003,55.0,2017-05-01,Registry extract
+E003,E005,30.0,2022-05-01,Share register
+E025,E005,35.0,2016-12-12,MCA filing
+E030,E005,30.0,2020-01-20,Trust deed
+E031,E010,70.0,2018-07-01,Fund schedule
+E022,E010,20.0,2012-04-04,Companies House
+E010,E016,60.0,2019-09-01,Board resolution
+E028,E016,10.0,2023-02-14,Share register
+E016,E009,50.0,2020-11-01,Share register
+E015,E002,60.0,2017-02-01,Disclosure
+E027,E002,15.0,2022-11-30,Subscription deed
+E031,E004,32.0,2022-04-04,Fund schedule
+E007,E004,20.0,2023-01-15,Disclosure
+E015,E008,26.0,2020-10-10,Share register
+E007,E008,28.0,2021-03-03,Disclosure
+E007,E006,18.0,2021-12-12,Disclosure
+E031,E006,22.0,2023-01-01,Fund schedule
+E014,E006,38.0,2014-02-02,Share register
+E007,E014,45.0,2013-06-01,Disclosure
+E021,E001,30.0,2019-04-01,Share register
+E030,E017,100.0,2015-05-05,Trust deed
+E022,E035,70.0,2020-02-02,Companies House
+E023,E036,45.0,2022-03-03,Registry extract
+E024,E037,50.0,2020-05-05,ACRA filing
