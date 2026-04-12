@@ -5,6 +5,10 @@ Requires Neo4j 5.x and environment variables NEO4J_URI, NEO4J_USER, NEO4J_PASSWO
 
 from __future__ import annotations
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 import csv
 import os
 from pathlib import Path

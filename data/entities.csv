@@ -19,19 +19,19 @@ E017,Manchester Biotech Holdings PLC,Corporation,GB,true,false,,,2010-09-09,0710
 E018,Larnaca Shipping Agency Ltd,Corporation,CY,true,false,,,2004-11-11,HE154433
 E019,Sentosa Leisure Group Pte Ltd,Corporation,SG,true,false,,,2008-08-08,200808088M
 E020,Chennai Industrial Alloy Pvt Ltd,Corporation,IN,true,false,,,2013-06-06,U27109TN2013PTC092888
-E021,Tanaka Hiroshi,Individual,JP,true,false,1968-03-12,false,,,
-E022,Sarah Pemberton,Individual,GB,true,false,1975-11-02,true,,,
-E023,Andreas Konstantinou,Individual,CY,true,false,1981-06-20,false,,,
-E024,Wei Ling Tan,Individual,SG,true,false,1988-09-14,false,,,
-E025,Priya Nair,Individual,IN,true,false,1972-01-30,true,,,
-E026,Dmitri Volkov,Individual,RU,true,false,1965-07-07,false,,,
-E027,James Aldridge,Individual,KY,true,false,1979-04-25,false,,,
-E028,Fatima Al-Mansoori,Individual,AE,true,false,1990-12-01,false,,,
+E021,Tanaka Hiroshi,Individual,JP,true,false,1968-03-12,false,,
+E022,Sarah Pemberton,Individual,GB,true,false,1975-11-02,true,,
+E023,Andreas Konstantinou,Individual,CY,true,false,1981-06-20,false,,
+E024,Wei Ling Tan,Individual,SG,true,false,1988-09-14,false,,
+E025,Priya Nair,Individual,IN,true,false,1972-01-30,true,,
+E026,Dmitri Volkov,Individual,RU,true,false,1965-07-07,false,,
+E027,James Aldridge,Individual,KY,true,false,1979-04-25,false,,
+E028,Fatima Al-Mansoori,Individual,AE,true,false,1990-12-01,false,,
 E029,Horizon Asia Macro Fund LP,Fund,KY,true,false,,,2012-08-01,HM-2012-LP
 E030,Sterling Income Trust PLC,Fund,GB,true,false,,,2003-05-15,ICVC-UK3344
 E031,Mirage Crescent Fund SPC,Fund,KY,true,true,,,2016-04-14,SPC-2016-004
-E032,Monetary Authority of Singapore,GovernmentBody,SG,true,false,,,,,
-E033,Cyprus Securities and Exchange Commission,GovernmentBody,CY,true,false,,,,,
+E032,Monetary Authority of Singapore,GovernmentBody,SG,true,false,,,,
+E033,Cyprus Securities and Exchange Commission,GovernmentBody,CY,true,false,,,,
 E034,Osaka Rail Logistics KK,Corporation,JP,true,false,,,2015-03-03,4123456789012
 E035,Bristol Maritime Finance Ltd,Corporation,GB,true,false,,,2018-12-12,FC078901
 E036,Paphos Renewables Ltd,Corporation,CY,true,false,,,2021-01-25,HE512200

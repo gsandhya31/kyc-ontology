@@ -7,6 +7,10 @@ Each catalog entry is (name, description, cypher).
 
 from __future__ import annotations
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 # --- Legacy / general analysis ---
 
 BENEFICIAL_OWNERSHIP_CHAIN = """

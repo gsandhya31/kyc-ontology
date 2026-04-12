@@ -6,6 +6,10 @@ Uses the same Neo4j env vars as load_data.py.
 
 from __future__ import annotations
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 import os
 
 from neo4j import GraphDatabase
